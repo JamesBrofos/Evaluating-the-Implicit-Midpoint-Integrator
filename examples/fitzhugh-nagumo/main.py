@@ -106,6 +106,7 @@ proposal_generalized_leapfrog = hmc.proposals.generalized_leapfrog_proposal_fact
 proposal_smart_generalized_leapfrog = hmc.proposals.smart_generalized_leapfrog_proposal_factory(grad_log_posterior, metric, grad_metric, grad_log_posterior_and_metric_and_grad_metric, args.thresh)
 proposal_implicit_midpoint = hmc.proposals.implicit_midpoint_proposal_factory(vector_field, args.thresh)
 proposal_smart_implicit_midpoint = hmc.proposals.smart_implicit_midpoint_proposal_factory(vector_field, args.thresh)
+proposal_lagrange_implicit_midpoint = hmc.proposals.lagrange_implicit_midpoint_proposal_factory(grad_log_posterior_and_metric_and_grad_metric, args.thresh)
 
 print('step-size: {} - num. steps: {} - threshold: {} - hmax: {} - randomize steps: {}'.format(args.step_size, args.num_steps, args.thresh, args.hmax, args.randomize_steps))
 
@@ -114,6 +115,7 @@ name, proposal = {
     'simp': ('smart implicit midpoint', proposal_smart_implicit_midpoint),
     'sglf': ('smart generalized leapfrog', proposal_smart_generalized_leapfrog),
     'glf': ('naive generalized leapfrog', proposal_generalized_leapfrog),
+    'limp': ('lagrange implicit midpoint', proposal_lagrange_implicit_midpoint)
 }[args.integrator]
 samples = experiment(name, args.step_size, args.num_steps, args.num_samples, proposal, args.randomize_steps)
 vp = hmc.checks.jacobian_determinant(samples, args.step_size, args.num_steps, proposal, sample_momentum, max_trials=10, delta=1e-3)

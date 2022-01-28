@@ -98,9 +98,11 @@ print('dataset: {} - step-size: {} - num. steps: {} - randomize steps: {}'.forma
 proposal_generalized_leapfrog = hmc.proposals.generalized_leapfrog_proposal_factory(grad_pos_hamiltonian, grad_mom_hamiltonian, args.thresh)
 proposal_smart_generalized_leapfrog = hmc.proposals.smart_generalized_leapfrog_proposal_factory(grad_log_posterior, metric, grad_metric, grad_log_posterior_and_metric_and_grad_metric, args.thresh)
 proposal_implicit_midpoint = hmc.proposals.implicit_midpoint_proposal_factory(vector_field, args.thresh)
+proposal_lagrange_implicit_midpoint = hmc.proposals.lagrange_implicit_midpoint_proposal_factory(grad_log_posterior_and_metric_and_grad_metric, args.thresh)
 proposal_smart_implicit_midpoint = hmc.proposals.smart_implicit_midpoint_proposal_factory(vector_field, args.thresh)
 
 name, proposal = {
+    'limp': ('lagrange implicit midpoint', proposal_lagrange_implicit_midpoint),
     'imp': ('implicit midpoint', proposal_implicit_midpoint),
     'simp': ('smart implicit midpoint', proposal_smart_implicit_midpoint),
     'sglf': ('smart generalized leapfrog', proposal_smart_generalized_leapfrog),

@@ -95,12 +95,15 @@ proposal_generalized_leapfrog = hmc.proposals.generalized_leapfrog_proposal_fact
 proposal_smart_generalized_leapfrog = hmc.proposals.smart_generalized_leapfrog_proposal_factory(grad_log_posterior, metric, grad_metric, grad_log_posterior_and_metric_and_grad_metric, args.thresh)
 proposal_implicit_midpoint = hmc.proposals.implicit_midpoint_proposal_factory(vector_field, args.thresh)
 proposal_smart_implicit_midpoint = hmc.proposals.smart_implicit_midpoint_proposal_factory(vector_field, args.thresh)
-
+proposal_lagrange_implicit_midpoint = hmc.proposals.lagrange_implicit_midpoint_proposal_factory(
+    grad_log_posterior_and_metric_and_grad_metric, args.thresh)
+print(proposal_lagrange_implicit_midpoint)
 
 print('step-size: {} - num. steps: {} - threshold: {} - randomize steps: {}'.format(args.step_size, args.num_steps, args.thresh, args.randomize_steps))
 
 
 configs = [
+    ('lagrange implicit midpoint', proposal_lagrange_implicit_midpoint),
     ('smart implicit midpoint', proposal_smart_implicit_midpoint),
     ('implicit midpoint', proposal_implicit_midpoint),
     ('naive generalized leapfrog', proposal_generalized_leapfrog),

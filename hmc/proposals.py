@@ -3,9 +3,19 @@ from typing import Callable, Tuple
 import numpy as np
 
 from hmc.integrators import (
-    leapfrog, generalized_leapfrog, smart_generalized_leapfrog,
-    implicit_midpoint, smart_implicit_midpoint)
+    lagrange_implicit_midpoint,
+    leapfrog, generalized_leapfrog,
+    smart_generalized_leapfrog,
+    implicit_midpoint,
+    smart_implicit_midpoint
+)
 
+
+def lagrange_implicit_midpoint_proposal_factory(grad_log_posterior_and_metric_and_grad_metric: Callable, thresh: float=1e-6, max_iters: int=1000) -> Callable:
+    def proposal(q: np.ndarray, p: np.ndarray, step_size: float, num_steps: int) -> Tuple:
+        (q, p), success = lagrange_implicit_midpoint(grad_log_posterior_and_metric_and_grad_metric, (q, p), step_size, num_steps, thresh, max_iters)
+        return (q, p), success
+    return proposal
 
 def leapfrog_proposal_factory(grad_pos_hamiltonian: Callable, grad_mom_hamiltonian: Callable) -> Callable:
     """Euclidean proposal distribution for a separable Hamiltonian. Integration is

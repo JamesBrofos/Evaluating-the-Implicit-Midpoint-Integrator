@@ -6,6 +6,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -14,6 +16,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -22,6 +26,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -30,6 +36,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -38,6 +46,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -46,6 +56,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -54,6 +66,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -62,6 +76,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -70,6 +86,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -78,6 +96,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -86,6 +106,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -94,6 +116,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -102,6 +126,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -110,6 +136,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -118,6 +146,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -126,6 +156,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -134,6 +166,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -142,6 +176,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -150,6 +186,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -158,6 +196,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -166,6 +206,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -174,6 +216,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -182,6 +226,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -190,6 +236,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -198,6 +246,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -206,6 +256,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -214,6 +266,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -222,6 +276,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -230,6 +286,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -238,6 +296,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 1 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -246,6 +306,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -254,6 +316,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -262,6 +326,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -270,6 +336,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -278,6 +346,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -286,6 +356,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -294,6 +366,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -302,6 +376,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -310,6 +386,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -318,6 +396,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -326,6 +406,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -334,6 +416,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -342,6 +426,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -350,6 +436,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -358,6 +446,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -366,6 +456,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -374,6 +466,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -382,6 +476,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -390,6 +486,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -398,6 +496,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -406,6 +506,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -414,6 +516,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -422,6 +526,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -430,6 +536,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -438,6 +546,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -446,6 +556,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -454,6 +566,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -462,6 +576,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -470,6 +586,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -478,6 +596,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 2 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -486,6 +606,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -494,6 +616,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -502,6 +626,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -510,6 +636,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -518,6 +646,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -526,6 +656,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -534,6 +666,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -542,6 +676,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -550,6 +686,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -558,6 +696,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -566,6 +706,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -574,6 +716,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -582,6 +726,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -590,6 +736,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -598,6 +746,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -606,6 +756,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -614,6 +766,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -622,6 +776,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -630,6 +786,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -638,6 +796,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -646,6 +806,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -654,6 +816,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -662,6 +826,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -670,6 +836,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -678,6 +846,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -686,6 +856,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -694,6 +866,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -702,6 +876,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 0.001 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -710,6 +886,8 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-06 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator glf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator imp --hmax 0.0 --randomize-steps 2>/dev/null
@@ -718,3 +896,5 @@ source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py 
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator sglf --hmax 0.0 --no-randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --randomize-steps 2>/dev/null
 source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator simp --hmax 0.0 --no-randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --randomize-steps 2>/dev/null
+source $HOME/.bashrc ; source activate implicit-midpoint-devel ; python main.py --num-samples 1000 --step-size 1.0 --num-steps 5 --thresh 1e-09 --integrator limp --hmax 0.0 --no-randomize-steps 2>/dev/null

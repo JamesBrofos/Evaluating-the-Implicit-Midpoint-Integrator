@@ -6,6 +6,6 @@ with open('joblist.txt', 'w') as f:
             for num_steps in [5, 10, 50]:
                 for seed in range(10):
                     for num_samples in [10000]:
-                        for integrator in ['glf', 'sglf', 'imp', 'simp']:
+                        for integrator in ['glf', 'sglf', 'imp', 'simp', 'limp']:
                             for rs in ['randomize-steps', 'no-randomize-steps']:
                                 f.write(job.format(num_samples, dataset, step_size, num_steps, integrator, rs) + '\n')
